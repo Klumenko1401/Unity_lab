@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2F00C848-03D2-452F-506A-EE212A5702EC}</ProjectGuid>
+    <ProjectGuid>{2B0ADD02-8615-B006-75B4-F89222C74097}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,12 +58,10 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Shell.cs" />
-    <Compile Include="Assets\Scripts\FireShell.cs" />
-    <Compile Include="Assets\Scripts\MoveShell.cs" />
-    <Compile Include="Assets\Scripts\Drive.cs" />
-    <Compile Include="Assets\Scripts\DestroyShell.cs" />
-    <Compile Include="Assets\Scripts\AIShell.cs" />
+    <Compile Include="Assets\Script\SecondsUpdate.cs" />
+    <Compile Include="Assets\Script\LateUpdateMove.cs" />
+    <Compile Include="Assets\Script\UpdateMove.cs" />
+    <Compile Include="Assets\Script\FixedUpdateMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
